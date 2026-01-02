@@ -1,7 +1,7 @@
 export default function Quote() {
   return (
     <section className="bg-[#e9edf3] py-32 text-center">
-      <div className="max-w-4xl mx-auto px-6">
+      <div className="max-w-2xl mx-auto px-6">
 
         {/* CIRCULAR IMAGE */}
         <div className="flex justify-center">
