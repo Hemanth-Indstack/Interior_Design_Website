@@ -1,12 +1,12 @@
 export default function Quote() {
   return (
-    <section className="bg-[#e9edf3] py-32 text-center">
-      <div className="max-w-2xl mx-auto px-6">
+    <section className="bg-[#e9edf3] py-20 text-center">
+      <div className="max-w-4xl mx-auto px-6">
 
         {/* CIRCULAR IMAGE */}
         <div className="flex justify-center">
           <div
-            className="w-[360px] h-[360px] rounded-full border-[16px] border-white bg-center bg-cover"
+            className="w-[280px] h-[280px] rounded-full border-[12px] border-white bg-center bg-cover"
             style={{
               backgroundImage:
                 "url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/5a4113a422625ff99aef921f/pexels-photo-3259922.jpeg)",
@@ -15,7 +15,7 @@ export default function Quote() {
         </div>
 
         {/* TEXT */}
-        <p className="mt-12 text-lg italic text-gray-700 leading-[1.8]">
+        <p className="mt-8 text-base italic text-gray-700 leading-relaxed">
           Material-wise, nautical decor incorporates unfinished wood in its
           tables or chairs, combined with chic linen upholstery for your lounge
           seats and sofas.
@@ -26,10 +26,10 @@ export default function Quote() {
         </p>
 
         {/* ARROW ICON */}
-        <div className="flex justify-center mt-10">
+        <div className="flex justify-center mt-6">
           <svg
-            width="48"
-            height="48"
+            width="36"
+            height="36"
             viewBox="0 0 490.8 490.8"
             fill="#9db3d0"
           >
