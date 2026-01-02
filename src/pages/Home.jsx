@@ -17,7 +17,6 @@ export default function Home() {
       <Partners />
       <Gallery />
       <Quote />
-      
       <Testimonials />
       <Subscribe />
       <Footer />
